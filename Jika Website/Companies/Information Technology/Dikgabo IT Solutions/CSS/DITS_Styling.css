@@ -1,0 +1,178 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding:0;
+    background-color: white;
+    }
+
+section{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto; 
+}   
+
+    
+header{
+        background: purple;
+          color:antiquewhite;  
+          padding-top: 30px;
+          min-height: 70px;
+          border-bottom: orange 2px solid;
+          width: 80%;
+          margin-left: auto;
+          margin-right: auto;
+}
+
+header a{
+    color: antiquewhite;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+header a:hover{
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+header ul{
+margin: 0;
+padding: 0;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #DITS_Brand{
+float: left;
+}
+
+header #DITS_Brand h1{
+    margin:0;
+    }
+
+header nav{
+float: right;
+margin-top: 10px;
+}
+
+header .highlight,header .current a {
+    color: orange;
+    font-weight: bold;
+}
+#DITS_placeholder{
+    padding:25px;
+    border-top: orange 2px solid;
+    background: purple; 
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    background-color: purple;
+    color: white;
+    border-radius: 20px;
+}
+#mainColumn{
+    width: 65%;
+    float: left;
+    margin-bottom: 40px;
+}
+
+
+.DITS_Descreptions{
+    text-align: center;
+    text-decoration: underline orange;
+    margin-right:30%;
+    margin-left: 32%;
+   
+}
+
+.DITS_Descreption{
+    text-align: center;
+    text-decoration: underline orange;
+
+   
+}
+
+#DITS_Services h1{
+    text-align: center;
+}
+
+
+
+#servicesRendered{
+    margin-top: 50px;
+    text-align: center;
+    }
+    
+#servicesRendered .Services{
+     float: left;
+     width: 30%;
+     margin-left: 90px;
+     margin-right: 50px;
+     margin-bottom: 50px;
+     text-align: center;
+     padding: 30px; 
+     border: orange solid;  
+     background-color: purple;
+     color: white;
+}
+    
+#servicesRendered .Services img{
+    
+        width: 65%;
+        height: 30%;
+}
+
+
+address{
+    float:right;
+    width: 50%;
+}
+
+#embedMap{
+    width: 40%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer li{
+       float:inherit;
+        display: inline;
+        padding: 0 30px 0px 30px;
+}
+
+
+footer a{
+        color: orange;
+        text-decoration: none;
+        font-size: 15px;
+}
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: orange;
+    background:  purple;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
